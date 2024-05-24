@@ -14,7 +14,6 @@
 
 
 
-
 .input {
   cursor: pointer;
   }
@@ -827,7 +826,7 @@ font-size: 1.5em;
 }
 
 #hamburger::after {
-    content:'\2630' ;
+    content:'2630' ;
     color: white;
     font-size: 1.5em;
     display: none;
@@ -3535,7 +3534,7 @@ display: none;
     }
 
     #hamburger::after {
-        content: '\2630';
+        content: '2630';
         color: white;
         font-size: 1.5em;
         display: unset;
@@ -3707,7 +3706,7 @@ display: none;
         height: auto;
         background-image: url(abstract\ img2.jpg);
 
-        background-position: -900px -300px;
+        background-position: -900px -100px;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -5177,6 +5176,9 @@ display: none;
        
     }
 
+   
+   
+
     #crossing::before {
         content: "";
         width: 220%;
@@ -5235,6 +5237,8 @@ display: none;
       
     
     }
+
+
 
     .cross {
         position: absolute;
@@ -5328,7 +5332,7 @@ display: none;
     
     .feedback-items .phn-num {
         width: 85%;
-       margin-bottom: 5%;
+       margin-bottom: 8%;
        margin-left: auto;
        margin-right: auto;
        position: relative;
@@ -5403,7 +5407,7 @@ display: none;
     
     .feedback-items .pass {
         width: 85%;
-        margin-bottom: 5%;
+        margin-bottom: 8%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -5592,7 +5596,7 @@ display: none;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 0px;
         margin-top: 0%;
-       min-width: 350px;
+       min-width: 360px;
         margin-right: auto;
         margin-left: auto;
         position: relative;
@@ -5666,7 +5670,7 @@ display: none;
     } 
 
     #hamburger::after {
-        content: '\2630';
+        content: '2630';
         color: white;
         font-size: 1.4em;
         display: unset;
