@@ -14,6 +14,8 @@
 
 
 
+
+
 .input {
   cursor: pointer;
   }
@@ -825,8 +827,8 @@ font-size: 1.5em;
    
 }
 
-#hamburger::after {
-    content:'2630' ;
+#hamburger i {
+    
     color: white;
     font-size: 1.5em;
     display: none;
@@ -3533,8 +3535,8 @@ display: none;
         font-size: 0.8em;
     }
 
-    #hamburger::after {
-        content: '2630';
+    #hamburger i {
+        
         color: white;
         font-size: 1.5em;
         display: unset;
@@ -5345,12 +5347,15 @@ display: none;
         border: none;
        padding: 5% 5%;
        position: relative;
+       font-size: 0.8em;
+        font-weight: 400;
+
     }
     
     
     .feedback-items .phn-num h3 {
        color: #EF443A;
-        font-size: 0.7em;
+        font-size: 0.8em;
         font-weight: 400;
         margin-bottom: 2%;
     
@@ -5418,11 +5423,14 @@ display: none;
         outline: 1.5px solid #EF443A  ;
         border: none;
        padding: 5% 5%;
+
+       font-size: 0.8em;
+       font-weight: 400;
     }
     
     .feedback-items .pass h3 {
         color: #EF443A;
-        font-size: 0.7em;
+        font-size: 0.8em;
         font-weight: 400;
         margin-bottom: 2%;
     }
@@ -5669,9 +5677,10 @@ display: none;
        
     } 
 
-    #hamburger::after {
-        content: '2630';
+    #hamburger i {
+       font-weight: 600;
         color: white;
+
         font-size: 1.4em;
         display: unset;
     }
@@ -5855,7 +5864,7 @@ display: none;
         height: auto;
         background-image: url(abstract\ img2.jpg);
 
-        background-position: -642px -300px;
+        background-position: -642px -30px;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -6633,7 +6642,7 @@ display: none;
         width: 100%;
         height: auto;
         background-image: url(479367-background\ design\ for\ powerpoint\ presentation\ free\ download\ \(1\).jpg);
-        background-position: -600px -376px;
+        background-position: -600px -320px;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -6643,7 +6652,7 @@ display: none;
     .about-text h1{
         color: white;
         text-align: center;
-        font-size: 1em;
+        font-size: 0.9em;
         font-weight: 400;
         margin-bottom: 1%;
         width: 55%;
