@@ -15,6 +15,7 @@
 
 
 
+
 .input {
   cursor: pointer;
   }
@@ -7903,7 +7904,7 @@ outline: 1px solid white;
         height: auto;
         background-image: url(abstract\ img2.jpg);
 
-        background-position: -642px -200px;
+        background-position: -642px -300px;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
