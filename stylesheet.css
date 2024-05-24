@@ -199,7 +199,7 @@ left: 100%;
 
 
 .cross::after {
-content: "2715";
+content: "\2715";
 color: white;
 background-color: rgba(255, 255, 255, 0.182);
 cursor: pointer;
@@ -411,7 +411,7 @@ font-size: 1.5em;
 }
 
 .cross-1::after {
-    content: "2715";
+    content: "\2715";
     color: white;
     background-color: rgba(255, 255, 255, 0.182);
     cursor: pointer;
@@ -726,7 +726,7 @@ font-size: 1.5em;
 .background-home {
     width: 100%;
     height: auto;
-    background-image: url(abstract img2.jpg);
+    background-image: url(abstract\ img2.jpg);
   
    overflow: hidden;
     background-position: center;
@@ -827,7 +827,7 @@ font-size: 1.5em;
 }
 
 #hamburger::after {
-    content:'2630' ;
+    content:'\2630' ;
     color: white;
     font-size: 1.5em;
     display: none;
@@ -1302,7 +1302,7 @@ position: relative;
 .banner {
     width: 100%;
     height: auto;
-    background-image: url(clgszu2oed1k7udh-0_0_desktop_0_1X-1920x608 (1).jpg);
+    background-image: url(clgszu2oed1k7udh-0_0_desktop_0_1X-1920x608\ \(1\).jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1773,7 +1773,7 @@ position: relative;
 .background-about {
     width: 100%;
     height: auto;
-    background-image: url(479367-background design for powerpoint presentation free download (1).jpg);
+    background-image: url(479367-background\ design\ for\ powerpoint\ presentation\ free\ download\ \(1\).jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1883,7 +1883,7 @@ position: relative;
 }
 
 .story-bg1 {
-    background-image: linear-gradient(to bottom right,#120926b4, rgba(0, 0, 255, 0.327))   ,url(technology-background-digital-graphic-design-wallpaper-cpu-gpu-motherboard-chip-generative-ai_839051-886 (1).jpg);
+    background-image: linear-gradient(to bottom right,#120926b4, rgba(0, 0, 255, 0.327))   ,url(technology-background-digital-graphic-design-wallpaper-cpu-gpu-motherboard-chip-generative-ai_839051-886\ \(1\).jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1931,7 +1931,7 @@ position: relative;
 }
 
 .vision-bg1 {
-   background-image: linear-gradient(to bottom right, #ef433a72, #ef433a40) ,url(amd-processor-corn-ryazan-ryzen-hd-wallpaper-preview (1).jpg);
+   background-image: linear-gradient(to bottom right, #ef433a72, #ef433a40) ,url(amd-processor-corn-ryazan-ryzen-hd-wallpaper-preview\ \(1\).jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2025,7 +2025,7 @@ position: relative;
 }
 
 .why-bg1 {
-    background-image: linear-gradient(to bottom right, rgba(0, 0, 255, 0.393), rgba(0, 0, 255, 0.256)),url(810997 (1).jpg);
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 255, 0.393), rgba(0, 0, 255, 0.256)),url(810997\ \(1\).jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3086,7 +3086,7 @@ margin-bottom: 3%;
 }
 
 #cross-3::after {
-content: "2715";
+content: "\2715";
 color: white;
 background-color: rgba(255, 255, 255, 0.182);
 cursor: pointer;
@@ -3143,7 +3143,7 @@ display: none;
     }
     
     .cross::after {
-    content: "2715";
+    content: "\2715";
     color: white;
     background-color: rgba(255, 255, 255, 0.182);
     cursor: pointer;
@@ -3460,7 +3460,7 @@ display: none;
     }
     
     .cross-1::after {
-        content: "2715";
+        content: "\2715";
         color: white;
         background-color: rgba(255, 255, 255, 0.182);
         cursor: pointer;
@@ -3535,7 +3535,7 @@ display: none;
     }
 
     #hamburger::after {
-        content: '2630';
+        content: '\2630';
         color: white;
         font-size: 1.5em;
         display: unset;
@@ -3605,7 +3605,7 @@ display: none;
     }
 
     #cross-3::after {
-        content: "2715";
+        content: "\2715";
         color: white;
         background-color: rgba(255, 255, 255, 0.068);
         cursor: pointer;
@@ -3705,7 +3705,7 @@ display: none;
     .background-home {
         width: 100%;
         height: auto;
-        background-image: url(abstract img2.jpg);
+        background-image: url(abstract\ img2.jpg);
 
         background-position: -900px -300px;
         background-repeat: no-repeat;
@@ -4339,7 +4339,7 @@ display: none;
     .background-about {
         width: 100%;
         height: auto;
-        background-image: url(479367-background design for powerpoint presentation free download (1).jpg);
+        background-image: url(479367-background\ design\ for\ powerpoint\ presentation\ free\ download\ \(1\).jpg);
         background-position: -550px -410px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -4463,7 +4463,7 @@ display: none;
     }
     
     .story-bg1 {
-        background-image: linear-gradient(to bottom right,#120926b4, rgba(0, 0, 255, 0.327))   ,url(technology-background-digital-graphic-design-wallpaper-cpu-gpu-motherboard-chip-generative-ai_839051-886 (1).jpg);
+        background-image: linear-gradient(to bottom right,#120926b4, rgba(0, 0, 255, 0.327))   ,url(technology-background-digital-graphic-design-wallpaper-cpu-gpu-motherboard-chip-generative-ai_839051-886\ \(1\).jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -4514,7 +4514,7 @@ display: none;
     }
     
     .vision-bg1 {
-       background-image: linear-gradient(to bottom right, #ef433a72, #ef433a40) ,url(amd-processor-corn-ryazan-ryzen-hd-wallpaper-preview (1).jpg);
+       background-image: linear-gradient(to bottom right, #ef433a72, #ef433a40) ,url(amd-processor-corn-ryazan-ryzen-hd-wallpaper-preview\ \(1\).jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -4588,7 +4588,7 @@ display: none;
     }
     
     .why-bg1 {
-        background-image: linear-gradient(to bottom right, rgba(0, 0, 255, 0.393), rgba(0, 0, 255, 0.256)),url(810997 (1).jpg);
+        background-image: linear-gradient(to bottom right, rgba(0, 0, 255, 0.393), rgba(0, 0, 255, 0.256)),url(810997\ \(1\).jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -5182,7 +5182,7 @@ display: none;
     }
     
     .cross::after {
-    content: "2715";
+    content: "\2715";
     color: white;
     background-color: rgba(255, 255, 255, 0.182);
     cursor: pointer;
@@ -5225,7 +5225,7 @@ display: none;
     }
     
     .cross-1::after {
-        content: "2715";
+        content: "\2715";
         color: white;
         background-color: rgba(255, 255, 255, 0.182);
         cursor: pointer;
@@ -5604,7 +5604,7 @@ display: none;
     } 
 
     #hamburger::after {
-        content: '2630';
+        content: '\2630';
         color: white;
         font-size: 1.4em;
         display: unset;
@@ -5702,7 +5702,7 @@ display: none;
     }
 
     #cross-3::after {
-        content: "2715";
+        content: "\2715";
         color: white;
         background-color: rgba(255, 255, 255, 0.068);
         cursor: pointer;
@@ -5787,7 +5787,7 @@ display: none;
     .background-home {
         width: 100%;
         height: auto;
-        background-image: url(abstract img2.jpg);
+        background-image: url(abstract\ img2.jpg);
 
         background-position: -642px -300px;
         background-repeat: no-repeat;
@@ -6566,7 +6566,7 @@ display: none;
     .background-about {
         width: 100%;
         height: auto;
-        background-image: url(479367-background design for powerpoint presentation free download (1).jpg);
+        background-image: url(479367-background\ design\ for\ powerpoint\ presentation\ free\ download\ \(1\).jpg);
         background-position: -600px -376px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -6694,7 +6694,7 @@ display: none;
     }
     
     .story-bg1 {
-        background-image: linear-gradient(to bottom right,#120926b4, rgba(0, 0, 255, 0.327))   ,url(technology-background-digital-graphic-design-wallpaper-cpu-gpu-motherboard-chip-generative-ai_839051-886 (1).jpg);
+        background-image: linear-gradient(to bottom right,#120926b4, rgba(0, 0, 255, 0.327))   ,url(technology-background-digital-graphic-design-wallpaper-cpu-gpu-motherboard-chip-generative-ai_839051-886\ \(1\).jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -6745,7 +6745,7 @@ display: none;
     }
     
     .vision-bg1 {
-       background-image: linear-gradient(to bottom right, #ef433a72, #ef433a40) ,url(amd-processor-corn-ryazan-ryzen-hd-wallpaper-preview (1).jpg);
+       background-image: linear-gradient(to bottom right, #ef433a72, #ef433a40) ,url(amd-processor-corn-ryazan-ryzen-hd-wallpaper-preview\ \(1\).jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -6827,7 +6827,7 @@ display: none;
     }
     
     .why-bg1 {
-        background-image: linear-gradient(to bottom right, rgba(0, 0, 255, 0.393), rgba(0, 0, 255, 0.256)),url(810997 (1).jpg);
+        background-image: linear-gradient(to bottom right, rgba(0, 0, 255, 0.393), rgba(0, 0, 255, 0.256)),url(810997\ \(1\).jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -6988,12 +6988,7 @@ display: none;
         
     }
 
-    .text-tag {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        display: none;
-    }
+   
 
     .text-tag-2 {
         display: flex;
@@ -7907,12 +7902,12 @@ outline: 1px solid white;
 
 @media (max-height:800px) {
 
+     
     
-   
     .background-home {
         width: 100%;
         height: auto;
-        background-image: url(abstract img2.jpg);
+        background-image: url(abstract\ img2.jpg);
 
         background-position: -642px -200px;
         background-repeat: no-repeat;
@@ -7921,25 +7916,7 @@ outline: 1px solid white;
 
 
     }
+
     
-            
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 }
  
