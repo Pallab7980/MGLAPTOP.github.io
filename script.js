@@ -453,13 +453,13 @@ function blank() {
 }
 
 
-window.addEventListener('load', ()=>{
-  window.Notification.requestPermission();
-})
+// window.addEventListener('load', ()=>{
+//   window.Notification.requestPermission();
+// })
 
 
-// function loa() {
-//   Notification.requestPermission();
+function loa() {
+  Notification.requestPermission();
   
-// }
+}
 
