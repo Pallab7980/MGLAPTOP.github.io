@@ -456,7 +456,11 @@ function blank() {
 
 
 function loa() {
-  Notification.requestPermission();
+  Notification.requestPermission(()=>{
+         if(Notification.permission ==="granted") {
+new Notification("Welcome to our world");
+    }
+  });
   
 }
 
