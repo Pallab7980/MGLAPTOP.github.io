@@ -41,7 +41,7 @@ function page()  {
     
   
    
-    document.querySelector('.small').src='../images/black_laptophd1.png';
+    document.querySelector('.small').src='black_laptophd1.png';
 
     document.getElementById('black_laptop').style="width: 16%;  box-shadow: 0px 0px 7px yellow;";
     document.getElementById('white_laptop_1').style="width: 12%;  box-shadow: none;";
@@ -50,7 +50,7 @@ function page()  {
   function lapchange1()  {
 
     
-    document.querySelector('.small').src='../images/white_laptophd1.png';
+    document.querySelector('.small').src='white_laptophd1.png';
     document.getElementById('white_laptop_1').style="width: 16%;  box-shadow: 0px 0px 7px yellow;";
     document.getElementById('black_laptop').style="width: 12%;  box-shadow: none;";
   }
@@ -58,14 +58,14 @@ function page()  {
 
   function gotowhite()  {
    
-    document.querySelector('.small').src='../images/black_laptophd1.png';
+    document.querySelector('.small').src='black_laptophd1.png';
     document.getElementById('circle-2').style="width: 24px; height: 24px;";
     document.getElementById('circle-1').style="width: 19px; height: 19px;;";
   }
 
   function gotoblack()  {
     
-    document.querySelector('.small').src='../images/white_laptophd1.png';
+    document.querySelector('.small').src='white_laptophd1.png';
     document.getElementById('circle-2').style="width: 19; height: 19px;";
     document.getElementById('circle-1').style="width: 24; height: 24px;";
   }
@@ -453,9 +453,6 @@ function blank() {
 }
 
 
-// window.addEventListener('load', ()=>{
-//   window.Notification.requestPermission();
-// })
 
 
 function loa() {
