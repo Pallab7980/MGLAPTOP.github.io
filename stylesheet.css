@@ -7900,23 +7900,5 @@ outline: 1px solid white;
 
 
 
-@media screen and (max-height:800px) {
 
-     
-    
-    .background-home {
-        width: 100%;
-        height: auto;
-        background-image: url(abstract\ img2.jpg);
-
-        background-position: -642px -200px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-
-
-    }
-
-    
-}
  
