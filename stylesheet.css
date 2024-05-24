@@ -5146,20 +5146,35 @@ display: none;
 @media (max-width:450px) {
 
     #crossing {
-        width: 30%;
-        height: 51.5%;
+        width: 100%;
+        height: 100%;
         background-color: #07284700;
        /* box-shadow: 0px 0px 20px #8A6EE1; */
-        border-top-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        margin-top: 45%;
-        min-width: 350px;
-     
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-top: 0%;
+        min-width: 360px;
+        
         margin-right: auto;
         margin-left: auto;
         position: relative;
         overflow: hidden;
         
+    }
+
+    #crossing::after {
+        content: "";
+        width: 50%;
+        height: 130%;
+        background: linear-gradient(to bottom right, rgb(173, 173, 241), #8A6EE1 );
+        /* box-shadow: 0px 0px 20px yellow inset; */
+        
+        position: absolute;
+        left: 25%;
+       top: -15%;
+        animation: none ;
+        display: none;
+       
     }
 
     #crossing::before {
@@ -5170,8 +5185,55 @@ display: none;
         position: absolute;
         right: -50%;
        bottom: 35%;
-        animation: round 8s infinite  linear ;
+        animation: none ;
+        display: none;
         
+    }
+
+
+    #crossing-1::after {
+        content: "";
+        width: 50%;
+        height: 130%;
+        background: linear-gradient(to bottom right, rgb(18, 211, 172), #ec7fa0 );
+        /* box-shadow: 0px 0px 20px yellow inset; */
+       
+        position: absolute;
+        left: 25%;
+       top: -15%;
+       animation: none ;
+        display: none;
+       
+    }
+
+    #crossing-1::before {
+        content: "";
+        width: 195%;
+        height: 30%;
+        background: linear-gradient(to bottom right, rgb(255, 255, 255), #dd8ef0 );
+        position: absolute;
+        right: -40%;
+       bottom: 35%;
+       animation: none ;
+        display: none;
+        
+    }
+
+    .login-form {
+        width: 100%;
+        height: 100%;
+       background: linear-gradient(to bottom, #000927, #034261);
+        border-top-left-radius: 0px;
+       
+    
+        border-bottom-right-radius: 0px;
+        z-index: 1000;
+        position: absolute; 
+        left: 0;
+        top:0 ;
+        transform: unset;
+      
+    
     }
 
     .cross {
@@ -5524,12 +5586,12 @@ display: none;
     }
 
     #crossing-1 {
-        width: 30%;
-        height: 52.5%;
+        width: 100%;
+        height: 100%;
         background-color: #07284700;
-        /* border-top-right-radius: 50px;
-        border-bottom-left-radius: 50px; */
-        margin-top: 45%;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        margin-top: 0%;
        min-width: 350px;
         margin-right: auto;
         margin-left: auto;
@@ -7635,14 +7697,14 @@ outline: 1px solid white;
 
 @media (max-width:400px) {
     #crossing {
-        width: 30%;
-        height: 61%;
+        width: 100%;
+        height: 100%;
         background-color: #07284700;
        /* box-shadow: 0px 0px 20px #8A6EE1; */
-        border-top-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        margin-top: 40%;
-        min-width: 330px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-top: 0%;
+        min-width: 350px;
      
         margin-right: auto;
         margin-left: auto;
@@ -7653,13 +7715,13 @@ outline: 1px solid white;
 
 
     #crossing-1 {
-        width: 30%;
-        height: 62%;
+        width: 100%;
+        height: 100%;
         background-color: #07284700;
-        /* border-top-right-radius: 50px;
-        border-bottom-left-radius: 50px; */
-        margin-top: 40%;
-       min-width: 330px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        margin-top: 0%;
+       min-width: 350px;
         margin-right: auto;
         margin-left: auto;
         position: relative;
@@ -7895,40 +7957,8 @@ outline: 1px solid white;
 }
 
 
-@media (max-height:800px){
-    .background-home {
-        width: 100%;
-        height: auto;
-        background-image: url(abstract\ img2.jpg);
-
-        background-position: -642px -200px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-
-
-    }
-
-     #crossing {
-        width: 30%;
-        height: 53%;
-        background-color: #07284700;
-       /* box-shadow: 0px 0px 20px #8A6EE1; */
-        border-top-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        margin-top: 35%;
-        min-width: 350px;
-     
-        margin-right: auto;
-        margin-left: auto;
-        position: relative;
-        overflow: hidden;
-        
-    }
-}
 
 
 
 
 
- 
