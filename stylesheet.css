@@ -7908,6 +7908,23 @@ outline: 1px solid white;
 
 
     }
+
+     #crossing {
+        width: 30%;
+        height: 53%;
+        background-color: #07284700;
+       /* box-shadow: 0px 0px 20px #8A6EE1; */
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        margin-top: 45%;
+        min-width: 350px;
+     
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        overflow: hidden;
+        
+    }
 }
 
 
