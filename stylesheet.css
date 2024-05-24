@@ -5133,7 +5133,7 @@ display: none;
 
 
 
-@media screen and (max-width:450px), screen and (max-height:800px) {
+@media  (max-width:450px),  (max-height:800px) {
 
     #crossing {
         width: 30%;
