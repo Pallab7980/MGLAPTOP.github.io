@@ -74,7 +74,7 @@ function page()  {
   function openmenu()  {
    
     document.getElementById('menu').style="top:0; transition:smooth, 1.5s ease-in-out";
-    document.getElementById('over').style="overflow:hidden; overflow-y: scroll";
+    document.getElementById('over').style="overflow:hidden; ";
     
   }
 
