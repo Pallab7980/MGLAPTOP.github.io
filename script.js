@@ -460,7 +460,7 @@ function loa() {
          if(Notification.permission ==="granted") {
 new Notification("Welcome to our world");
     }
-      window.location.reload();
+      
   });
   
 }
