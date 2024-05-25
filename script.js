@@ -11,7 +11,7 @@ function page()  {
 
   function pagenone()  {
     document.getElementById('loginpage').style="left:100%; transition:smooth, 1.5s ease-in-out;";
-    document.getElementById('over').style="overflow:none;";
+    document.getElementById('over').style="overflow:scroll;";
   }
 
   function feedpage()  {
@@ -21,17 +21,17 @@ function page()  {
 
   function feednone()  {
     document.getElementById('feedback-page').style="left:100%; transition:smooth, 1.5s ease-in-out";
-    document.getElementById('over').style="overflow:none;";
+    document.getElementById('over').style="overflow:scroll;";
   }
 
   function none()  {
     document.getElementById('loginpage').style="left:100%; transition: smooth, 1.5s ease-in-out";
-    document.getElementById('over').style="overflow:none;";
+    document.getElementById('over').style="overflow:scroll;";
   }
 
   function none1()  {
     document.getElementById('feedback-page').style="left:100%; transition: smooth, 1.5s ease-in-out";
-    document.getElementById('over').style="overflow:none;";
+    document.getElementById('over').style="overflow:scroll;";
   }
 
 
@@ -81,7 +81,7 @@ function page()  {
   function menuclose()  {
    
     document.getElementById('menu').style="top:-100%; transition: smooth, 1.5s ease-in-out";
-    document.getElementById('over').style="overflow:none;";
+    document.getElementById('over').style="overflow:scroll;";
   }
 
   function HOME1()  {
@@ -453,14 +453,18 @@ function blank() {
 }
 
 
+// window.addEventListener('load', ()=>{
+//   window.Notification.requestPermission();
+// })
 
 
 function loa() {
   Notification.requestPermission(()=>{
-         if(Notification.permission ==="granted") {
+    if(Notification.permission ==="granted") {
 new Notification("Welcome to our world");
     }
-      
+
+    
   });
   
 }
