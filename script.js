@@ -473,7 +473,7 @@ new Notification("Welcome to our world");
 
 
 function clicking() {
-  let recognition = new SpeechRecognition();
+  let recognition = new webkitSpeechRecognition();
   recognition.continuous = true;
   recognition.lang = "en-US";
   
