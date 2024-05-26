@@ -74,7 +74,7 @@ function page()  {
   function openmenu()  {
    
     document.getElementById('menu').style="top:0; transition:smooth, 1.5s ease-in-out";
-    document.getElementById('over').style="overflow:hidden; ";
+    document.getElementById('over').style="overflow:hidden; overflow:scroll ";
     
   }
 
@@ -469,3 +469,16 @@ new Notification("Welcome to our world");
   
 }
 
+
+
+
+function clicking() {
+  let recognition = new SpeechRecognition();
+  recognition.continuous = true;
+  recognition.lang = "en-US";
+  
+   paste= document.querySelector(".input")
+
+   recognition.start();
+  
+}
