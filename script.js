@@ -472,13 +472,13 @@ new Notification("Welcome to our world");
 
 
 
-// function clicking() {
-//   let recognition = new SpeechRecognition();
-//   recognition.continuous = true;
-//   recognition.lang = "en-US";
+function clicking() {
+  let recognition = new SpeechRecognition();
+  recognition.continuous = true;
+  recognition.lang = "en-US";
   
-//    paste= document.querySelector(".input")
+   paste= document.querySelector(".input")
 
-//    recognition.start();
+   recognition.start();
   
-// }
+}
