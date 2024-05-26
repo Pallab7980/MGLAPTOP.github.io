@@ -14,8 +14,6 @@
 
 
 
-
-
 .input {
   cursor: pointer;
   }
@@ -23,6 +21,7 @@
 body {
 position: relative;
 overflow-x: hidden;
+
 
 }
 
@@ -730,7 +729,7 @@ font-size: 1.5em;
     height: auto;
     background-image: url(abstract\ img2.jpg);
   
-   overflow: hidden;
+  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5711,6 +5710,7 @@ display: none;
         z-index: 1000000;
         backdrop-filter: blur(50px);
         padding-top: 65%;
+        
     }
 
     #login-1 {
