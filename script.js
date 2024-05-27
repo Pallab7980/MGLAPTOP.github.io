@@ -476,12 +476,39 @@ function clicking() {
   let recognition = new webkitSpeechRecognition();
   recognition.continuous = false;
   recognition.lang = "en-US";
- 
- recognition.start();
-  recognition.onresult= (e)=>{
-    let paste= document.querySelector(".input");
-    let result= e.results[0][0].transcript;
-     paste.value= result;
+  paste= document.querySelector(".input");
   
+  
+   recognition.start();
+
+    recognition.onresult= (e)=>{
+    let paste= document.querySelector(".input");
+        bullian= true;
+     result= e.results[0][0].transcript;
+    paste.value= result;
+    
+    if( result === "YouTube") {
+      window.open("https://www.youtube.com/", "_blank");
     }
+
+    if( result === "Google") {
+      window.open("https://www.google.com/", "_blank");
+    }
+
+    if( result === "Gmail") {
+      window.open("https://mail.google.com/", "_blank");
+    }
+
+    if( result === "WhatsApp") {
+      window.open("https://www.whatsapp.com/", "_blank");
+    }
+
+    
+   
+    }
+
+   
+    
+   
+  
 }
