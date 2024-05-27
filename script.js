@@ -476,9 +476,10 @@ function clicking() {
   let recognition = new webkitSpeechRecognition();
   recognition.continuous = true;
   recognition.lang = "en-US";
-  
-   paste= document.querySelector(".input")
+  result;
+   paste= document.querySelector(".input");
 
    recognition.start();
-  
+   result= recognition.results[0][0].transcript;
+   paste.value= result;
 }
