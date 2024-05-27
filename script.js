@@ -474,12 +474,14 @@ new Notification("Welcome to our world");
 
 function clicking() {
   let recognition = new webkitSpeechRecognition();
-  recognition.continuous = true;
+  recognition.continuous = false;
   recognition.lang = "en-US";
-  result;
-   paste= document.querySelector(".input");
-
-   recognition.start();
-   result= recognition.results[0][0].transcript;
-   paste.value= result;
+ 
+ recognition.start();
+  recognition.onresult= (e)=>{
+    let paste= document.querySelector(".input");
+    let result= e.results[0][0].transcript;
+     paste.value= result;
+  
+    }
 }
