@@ -1,6 +1,6 @@
 function page()  {
     document.getElementById('loginpage').style="left:0; transition:smooth, 1.5s ease-in-out";
-    document.getElementById('over').style="overflow:hidden;";
+    document.getElementById('over').style="overflow:hidden; ";
   }
 
   function slide()  {
@@ -74,10 +74,10 @@ function page()  {
   function openmenu()  {
    
     document.getElementById('menu').style="top:0; transition:smooth, 1.5s ease-in-out";
-    document.getElementById('over').style="overflow:hidden; overflow:scroll ";
+    document.getElementById('over').style="overflow:hidden; overflow-y: scroll";
     
   }
-
+ 
   function menuclose()  {
    
     document.getElementById('menu').style="top:-100%; transition: smooth, 1.5s ease-in-out";
@@ -462,7 +462,7 @@ function loa() {
   Notification.requestPermission(()=>{
     if(Notification.permission ==="granted") {
 new Notification("Welcome to MG Laptop",{
-  icon:'logo-between-letter-m-and-g-or-mg-vector-27810742.png';
+  icon:'logo-between-letter-m-and-g-or-mg-vector-27810742.png'
 });
     }
 
@@ -470,6 +470,8 @@ new Notification("Welcome to MG Laptop",{
   });
   
 }
+
+
 
 
 
@@ -483,6 +485,11 @@ function clicking() {
   
    recognition.start();
 
+  
+  
+  
+  
+  
     recognition.onresult= (e)=>{
     let paste= document.querySelector(".input");
         bullian= true;
