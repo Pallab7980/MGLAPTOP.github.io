@@ -160,7 +160,6 @@ if (strech.className == "inted" && std.className == "int" ) {
     
 }
 };
-
   
 let copy = document.getElementById("copy_link");
 let text = document.getElementById("para");
@@ -462,7 +461,9 @@ function blank() {
 function loa() {
   Notification.requestPermission(()=>{
     if(Notification.permission ==="granted") {
-new Notification("Welcome to MG Laptop");
+new Notification("Welcome to MG Laptop",{
+    icon:'./images/logo-between-letter-m-and-g-or-mg-vector-27810742.png'
+});
     }
 
     
