@@ -458,12 +458,11 @@ function blank() {
 // })
 
 
+
 function loa() {
   Notification.requestPermission(()=>{
     if(Notification.permission ==="granted") {
-new Notification("Welcome to MG Laptop",{
-  icon:'logo-between-letter-m-and-g-or-mg-vector-27810742.png'
-});
+new Notification("Welcome to MG Laptop");
     }
 
     
